@@ -23,7 +23,7 @@
         <a href="index.html">Home</a>
         <a href="about.html">Tentang Kami</a>
         <a href="menu.html">Menu</a>
-        <a href="contact.html">Kontak </a>
+        <a class="active" href="contact.html">Kontak </a>
       </div>
 
       <div class="navbar-extra">
@@ -33,10 +33,37 @@
       </div>
     </nav>
 
-    <!-- navbar end -->
-    <section class="hero">
+    <!-- isi web -->
+    <section id="contact" class="contact">
       <a href="contact.html"></a>
-      <main class="content"></main>
+      <h1><span>Kontak</span> Kami</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, saepe?</p>
+
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!3m2!1sen!2sid!4v1749286008534!5m2!1sen!2sid!6m8!1m7!1s3hAyBL2nlsK3K_l4vPnwbQ!2m2!1d-1.641465313710663!2d103.6156863534405!3f248.62931784102054!4f4.370330109224298!5f0.7820865974627469"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        ></iframe>
+
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="Nama Anda" required />
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="Email" required />
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="text" placeholder="No Hp" required />
+          </div>
+          <button type="submit" class="btn">Kirim Pesan</button>
+        </form>
+      </div>
     </section>
 
     <!-- Icon -->
